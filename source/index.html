@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>testing</title>
+</head>
+
+<body>
+
+    <div>
+        <img id="myImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="My Image" />
+    </div>
+
+    <script>
+        function load(data) {
+            document.getElementById("myImage").src = "data:image/png;base64," + data;
+        }
+    </script>
+
+</body>
+
+</html>
